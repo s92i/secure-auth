@@ -1,4 +1,9 @@
 {
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -6,14 +11,34 @@
     "start": "next start"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
+    "axios": "^1.2.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "formik": "^2.2.9",
+    "jsonwebtoken": "^9.0.0",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^6.8.2",
+    "mongoose-unique-validator": "^3.1.0",
     "next": "latest",
+    "next-auth": "^4.18.7",
+    "nextjs-cors": "^2.1.2",
+    "rate-limiter-flexible": "^2.4.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-toastify": "^9.1.1",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/mongo-sanitize": "^1.0.1",
+    "@types/mongoose-unique-validator": "^1.0.6",
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "@types/validator": "^13.7.10",
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.4",
